@@ -12,7 +12,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/Users/johncole/Desktop/GitHub/Notes/notesdb',                      # Or path to database file if using sqlite3.
+        'NAME': '/Users/johncole/Desktop/GitHub/Notes/back_end/notesdb',                      # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -109,7 +109,7 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    '/Users/johncole/Desktop/GitHub/Notes/front_end/html/admin'
+    '/Users/johncole/Desktop/GitHub/Notes/front_end/html'
 )
 
 INSTALLED_APPS = (
